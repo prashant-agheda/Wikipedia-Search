@@ -1,0 +1,51 @@
+<!-- Author: Prashant Agheda
+     GitHub: https://github.com/prashant-agheda -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- My Custom CSS File -->
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="./logo.png" />
+
+    <title> WIKIPEDIA SEARCH - by Prashant Agheda </title>
+</head>
+<body>
+
+
+    <main>
+        <header>
+            <img src="./logo.png" alt="Wikipedia Search Logo" class="logo" />
+
+            <form class="search-form">
+                <input placeholder="Type a keyword and press Enter to search" type="search" class="search-input" autofocus />
+            </form>
+        </header>
+
+        <div class="loading-indicator">
+            <div class="sk-chase js-spinner hidden">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+
+        <section class="search-results"></section>
+    </main>
+
+
+
+    <!-- My Custom JS File -->
+    <script src="./script.js" type="text/javascript"></script>
+
+</body>
+</html>
