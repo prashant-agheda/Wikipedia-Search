@@ -30,7 +30,7 @@
 
 
 # Try the Project Here
-[Live Demo Here]()
+[Live Demo Here](https://easy-wikipedia-search.web.app/)
 
 
 # Dev Post Project Link
